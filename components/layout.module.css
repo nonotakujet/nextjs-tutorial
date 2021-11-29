@@ -1,0 +1,27 @@
+.container {
+    max-width: 36rem;
+    padding: 0 1rem; /* 上下 左右 */
+    margin: 3rem auto 6rem; /* 上 左右 下 */
+}
+
+.header {
+    /* display flexを利用することで、flutterでいうchildrenに対して、column/rowを適応できる */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.headerImage {
+    width: 6rem;
+    height: 6rem;
+}
+
+.headerHomeImage {
+    width: 8rem;
+    height: 8rem;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
